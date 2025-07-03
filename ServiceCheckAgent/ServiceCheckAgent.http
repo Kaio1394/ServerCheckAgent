@@ -1,0 +1,6 @@
+@ServiceCheckAgent_HostAddress = http://localhost:5148
+
+GET {{ServiceCheckAgent_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
