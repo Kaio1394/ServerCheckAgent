@@ -1,0 +1,3 @@
+ServerCheckAgent is a lightweight API-based agent designed to be installed on Windows servers to enable centralized monitoring and remote management. Once deployed, it collects key server information such as Windows Event Viewer logs, service statuses, and system diagnostics, sending them to a central application for real-time analysis.
+Beyond monitoring, ServerCheckAgent also supports remote operations like starting and stopping Windows services, as well as executing custom scripts — providing full control over server environments from a single point.
+This agent works seamlessly with ServerCheck, a WPF-based desktop application that allows administrators to manage all connected agents from an intuitive and centralized interface.
