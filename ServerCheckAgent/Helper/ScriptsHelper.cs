@@ -1,4 +1,4 @@
-﻿namespace ServiceCheckAgent.Helper
+﻿namespace ServerCheckAgent.Helper
 {
     public class ScriptsHelper
     {

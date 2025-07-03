@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kaios\\source\\repos\\ServiceCheckAgent\\ServiceCheckAgent\\ServiceCheckAgent.csproj",
-      "projectName": "ServiceCheckAgent",
-      "projectPath": "C:\\Users\\kaios\\source\\repos\\ServiceCheckAgent\\ServiceCheckAgent\\ServiceCheckAgent.csproj",
+      "projectUniqueName": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
+      "projectName": "ServerCheckAgent",
+      "projectPath": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
       "packagesPath": "C:\\Users\\kaios\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kaios\\source\\repos\\ServiceCheckAgent\\ServiceCheckAgent\\obj\\",
+      "outputPath": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kaios\\AppData\\Roaming\\NuGet\\NuGet.Config",

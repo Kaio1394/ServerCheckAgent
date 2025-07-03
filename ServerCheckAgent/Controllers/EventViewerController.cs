@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ServiceCheckAgent.Controllers
+namespace ServerCheckAgent.Controllers
 {
     [ApiController]
     [Route("[controller]")]
