@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects\\ServerCheckAgent\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|d:\\projects\\servercheckagent\\servercheckagent\\servercheckagent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\servercheckagent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|d:\\projects\\servercheckagent\\servercheckagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServerCheckAgent.csproj",
+              "DocumentMoniker": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\ServerCheckAgent.csproj",
+              "ToolTip": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
+              "RelativeToolTip": "ServerCheckAgent\\ServerCheckAgent.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-04T20:35:26.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Program.cs",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\Program.cs",
+              "ToolTip": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Program.cs",
+              "RelativeToolTip": "ServerCheckAgent\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:11:29.751Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

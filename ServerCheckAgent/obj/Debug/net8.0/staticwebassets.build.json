@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WD81XIq6LvmLI17RuQ4UCbwTD2N9a4csPbUYeIt3yh4=",
+  "Source": "ServerCheckAgent",
+  "BasePath": "_content/ServerCheckAgent",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
