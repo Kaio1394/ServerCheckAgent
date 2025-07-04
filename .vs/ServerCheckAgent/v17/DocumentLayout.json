@@ -1,10 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\",
+  "WorkspaceRootPath": "D:\\projects\\ServerCheckAgent\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|c:\\users\\kaios\\source\\repos\\servercheckagent\\servercheckagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|d:\\projects\\servercheckagent\\servercheckagent\\services\\serviceswindowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\services\\serviceswindowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|d:\\projects\\servercheckagent\\servercheckagent\\services\\interfaces\\iserviceswindowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\services\\interfaces\\iserviceswindowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|d:\\projects\\servercheckagent\\servercheckagent\\helper\\serviceswindowshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\helper\\serviceswindowshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|d:\\projects\\servercheckagent\\servercheckagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|d:\\projects\\servercheckagent\\servercheckagent\\helper\\interfaces\\iserviceswindowshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\helper\\interfaces\\iserviceswindowshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|d:\\projects\\servercheckagent\\servercheckagent\\controllers\\serviceswindowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\controllers\\serviceswindowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|d:\\projects\\servercheckagent\\servercheckagent\\controllers\\eventviewercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\controllers\\eventviewercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|d:\\projects\\servercheckagent\\servercheckagent\\servercheckagent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\servercheckagent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +42,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IServicesWindowsService.cs",
+              "DocumentMoniker": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Services\\Interfaces\\IServicesWindowsService.cs",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\Services\\Interfaces\\IServicesWindowsService.cs",
+              "ToolTip": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Services\\Interfaces\\IServicesWindowsService.cs",
+              "RelativeToolTip": "ServerCheckAgent\\Services\\Interfaces\\IServicesWindowsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T21:17:11.034Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ServicesWindowsService.cs",
+              "DocumentMoniker": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Services\\ServicesWindowsService.cs",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\Services\\ServicesWindowsService.cs",
+              "ToolTip": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Services\\ServicesWindowsService.cs",
+              "RelativeToolTip": "ServerCheckAgent\\Services\\ServicesWindowsService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T21:16:49.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicesWindowsHelper.cs",
+              "DocumentMoniker": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Helper\\ServicesWindowsHelper.cs",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\Helper\\ServicesWindowsHelper.cs",
+              "ToolTip": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Helper\\ServicesWindowsHelper.cs",
+              "RelativeToolTip": "ServerCheckAgent\\Helper\\ServicesWindowsHelper.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T20:49:49.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IServicesWindowsHelper.cs",
+              "DocumentMoniker": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Helper\\Interfaces\\IServicesWindowsHelper.cs",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\Helper\\Interfaces\\IServicesWindowsHelper.cs",
+              "ToolTip": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Helper\\Interfaces\\IServicesWindowsHelper.cs",
+              "RelativeToolTip": "ServerCheckAgent\\Helper\\Interfaces\\IServicesWindowsHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T20:49:41.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServicesWindowsController.cs",
+              "DocumentMoniker": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Controllers\\ServicesWindowsController.cs",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\Controllers\\ServicesWindowsController.cs",
+              "ToolTip": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Controllers\\ServicesWindowsController.cs",
+              "RelativeToolTip": "ServerCheckAgent\\Controllers\\ServicesWindowsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T20:44:12.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Program.cs",
+              "DocumentMoniker": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Program.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Program.cs",
-              "ToolTip": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Program.cs",
+              "ToolTip": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Program.cs",
               "RelativeToolTip": "ServerCheckAgent\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T04:11:29.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventViewerController.cs",
+              "DocumentMoniker": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Controllers\\EventViewerController.cs",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\Controllers\\EventViewerController.cs",
+              "ToolTip": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\Controllers\\EventViewerController.cs",
+              "RelativeToolTip": "ServerCheckAgent\\Controllers\\EventViewerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T20:43:29.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServerCheckAgent.csproj",
+              "DocumentMoniker": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\ServerCheckAgent.csproj",
+              "ToolTip": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
+              "RelativeToolTip": "ServerCheckAgent\\ServerCheckAgent.csproj",
+              "ViewState": "AgIAAAkAAAAAGuN57QUEwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-04T20:35:26.184Z",
               "EditorCaption": ""
             }
           ]

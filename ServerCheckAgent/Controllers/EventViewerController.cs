@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ServerCheckAgent.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/api")]
     public class EventViewerController : ControllerBase
     {
         private readonly ILogger<EventViewerController> _logger;
