@@ -1,12 +1,14 @@
-﻿using System.ServiceProcess;
+﻿using ServerCheckAgent.Models;
+using System.ServiceProcess;
 
 namespace ServerCheckAgent.Helper.Interfaces
 {
     public interface IServicesWindowsHelper
     {
-        IEnumerable<ServiceController> GetServices();
-        (ServiceController?, string) GetServiceByName(string serviceName);
-        (bool, string) StartService(string serviceName);
-        (bool, string) StopService(string serviceName);
+        IEnumerable<Service> GetServices();
+        ServiceController GetServiceByName(string serviceName);
+        bool StartService(string serviceName);
+        bool StopService(string serviceName);
+        bool ServiceExists(string serviceName);
     }
 }

@@ -546,24 +546,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vericoders\\.nuget\\packages\\": {},
-    "D:\\shared\\NuGetPackages": {}
+    "C:\\Users\\kaios\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
+      "projectUniqueName": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
       "projectName": "ServerCheckAgent",
-      "projectPath": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
-      "packagesPath": "C:\\Users\\Vericoders\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\ServerCheckAgent\\ServerCheckAgent\\obj\\",
+      "projectPath": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
+      "packagesPath": "C:\\Users\\kaios\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Vericoders\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\kaios\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -571,6 +566,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -622,7 +618,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
