@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ServerCheckAgent.Controllers
 {
+    [ExcludeFromCodeCoverage]
     [ApiController]
     [Route("[controller]/api")]
     public class EventViewerController : ControllerBase

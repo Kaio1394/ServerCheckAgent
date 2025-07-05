@@ -1,4 +1,5 @@
 ﻿using ServerCheckAgent.Helper.Interfaces;
+using ServerCheckAgent.Models;
 using ServerCheckAgent.Services.Interfaces;
 using System.ServiceProcess;
 
@@ -12,24 +13,24 @@ namespace ServerCheckAgent.Services
             _helper = helper;
         }
 
-        public Task<(ServiceController?, string)> GetServiceByName(string serviceName)
+        public Task<IEnumerable<Service>> GetServices()
         {
-            throw new NotImplementedException();
+            return Task.Run(() => _helper.GetServices());
         }
 
-        public Task<IEnumerable<ServiceController>> GetServices()
+        public Task<bool> ServiceExist(string serviceName)
         {
-            throw new NotImplementedException();
+            return Task.Run(()=> _helper.ServiceExists(serviceName));
         }
 
-        public Task<(bool, string)> StartService(string serviceName)
+        public Task<bool> StartService(string serviceName)
         {
-            throw new NotImplementedException();
+            return Task.Run(() => _helper.StartService(serviceName));
         }
 
-        public Task<(bool, string)> StopService(string serviceName)
+        public Task<bool> StopService(string serviceName)
         {
-            throw new NotImplementedException();
+            return Task.Run(() => _helper.StopService(serviceName));
         }
     }
 }
