@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|c:\\users\\kaios\\source\\repos\\servercheckagent\\servercheckagent\\controllers\\serviceswindowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\controllers\\serviceswindowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|c:\\users\\kaios\\source\\repos\\servercheckagent\\servercheckagent\\controllers\\scriptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\controllers\\scriptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|c:\\users\\kaios\\source\\repos\\servercheckagent\\servercheckagent\\servercheckagent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\servercheckagent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|c:\\users\\kaios\\source\\repos\\servercheckagent\\servercheckagent\\configurations\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\configurations\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\helper\\serviceswindowshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|c:\\users\\kaios\\source\\repos\\servercheckagent\\servercheckagent\\controllers\\serviceswindowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\controllers\\serviceswindowscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|c:\\users\\kaios\\source\\repos\\servercheckagent\\servercheckagent\\services\\interfaces\\iserviceswindowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\services\\interfaces\\iserviceswindowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\servercheckagent\\resources\\messagesresponse.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\resources\\messagesresponse.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|c:\\users\\kaios\\source\\repos\\servercheckagent\\servercheckagent\\controllers\\scriptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|solutionrelative:servercheckagent\\controllers\\scriptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{057A0BDC-3350-400F-BA33-86A8D497F61F}|ServerCheckAgent\\ServerCheckAgent.csproj|c:\\users\\kaios\\source\\repos\\servercheckagent\\servercheckagent\\controllers\\eventviewercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,24 +74,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Configurations\\Startup.cs",
-              "RelativeDocumentMoniker": "ServerCheckAgent\\Configurations\\Startup.cs",
-              "ToolTip": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Configurations\\Startup.cs",
-              "RelativeToolTip": "ServerCheckAgent\\Configurations\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T05:14:09.984Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "ServerCheckAgent.csproj",
+              "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\ServerCheckAgent.csproj",
+              "ToolTip": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
+              "RelativeToolTip": "ServerCheckAgent\\ServerCheckAgent.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-06T11:23:10.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EventViewerHelper.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Helper\\EventViewerHelper.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Helper\\EventViewerHelper.cs",
@@ -95,12 +98,11 @@
               "RelativeToolTip": "ServerCheckAgent\\Helper\\EventViewerHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T05:11:52.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T05:11:52.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ScriptsHelper.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Helper\\ScriptsHelper.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Helper\\ScriptsHelper.cs",
@@ -108,25 +110,24 @@
               "RelativeToolTip": "ServerCheckAgent\\Helper\\ScriptsHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T05:11:46.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T05:11:46.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ServicesWindowsController.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Controllers\\ServicesWindowsController.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Controllers\\ServicesWindowsController.cs",
               "ToolTip": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Controllers\\ServicesWindowsController.cs",
               "RelativeToolTip": "ServerCheckAgent\\Controllers\\ServicesWindowsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T04:05:51.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ServicesWindowsService.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Services\\ServicesWindowsService.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Services\\ServicesWindowsService.cs",
@@ -134,12 +135,11 @@
               "RelativeToolTip": "ServerCheckAgent\\Services\\ServicesWindowsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T03:59:35.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T03:59:35.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IServicesWindowsService.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Services\\Interfaces\\IServicesWindowsService.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Services\\Interfaces\\IServicesWindowsService.cs",
@@ -147,12 +147,35 @@
               "RelativeToolTip": "ServerCheckAgent\\Services\\Interfaces\\IServicesWindowsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T04:08:26.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T04:08:26.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ScriptsController.cs",
+              "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Controllers\\ScriptsController.cs",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\Controllers\\ScriptsController.cs",
+              "ToolTip": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Controllers\\ScriptsController.cs",
+              "RelativeToolTip": "ServerCheckAgent\\Controllers\\ScriptsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T05:01:56.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Configurations\\Startup.cs",
+              "RelativeDocumentMoniker": "ServerCheckAgent\\Configurations\\Startup.cs",
+              "ToolTip": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Configurations\\Startup.cs",
+              "RelativeToolTip": "ServerCheckAgent\\Configurations\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T05:14:09.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ServicesWindowsHelper.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Helper\\ServicesWindowsHelper.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Helper\\ServicesWindowsHelper.cs",
@@ -160,12 +183,11 @@
               "RelativeToolTip": "ServerCheckAgent\\Helper\\ServicesWindowsHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T04:04:20.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T04:04:20.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Program.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Program.cs",
@@ -173,24 +195,11 @@
               "RelativeToolTip": "ServerCheckAgent\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T04:11:29.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T04:11:29.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ScriptsController.cs",
-              "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Controllers\\ScriptsController.cs",
-              "RelativeDocumentMoniker": "ServerCheckAgent\\Controllers\\ScriptsController.cs",
-              "ToolTip": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Controllers\\ScriptsController.cs",
-              "RelativeToolTip": "ServerCheckAgent\\Controllers\\ScriptsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T05:01:56.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MessagesResponse.resx",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Resources\\MessagesResponse.resx",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Resources\\MessagesResponse.resx",
@@ -201,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "EventViewerController.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Controllers\\EventViewerController.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Controllers\\EventViewerController.cs",
@@ -213,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MessagesResponse.Designer.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Resources\\MessagesResponse.Designer.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Resources\\MessagesResponse.Designer.cs",
@@ -225,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Models\\Response.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Models\\Response.cs",
@@ -237,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IServicesWindowsHelper.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Helper\\Interfaces\\IServicesWindowsHelper.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Helper\\Interfaces\\IServicesWindowsHelper.cs",
@@ -249,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\Models\\Service.cs",
               "RelativeDocumentMoniker": "ServerCheckAgent\\Models\\Service.cs",
