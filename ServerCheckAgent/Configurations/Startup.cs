@@ -15,6 +15,16 @@ namespace ServerCheckAgent.Configurations
 
             builder.Services.AddScoped<IServicesWindowsHelper, ServicesWindowsHelper>();
             builder.Services.AddScoped<IServicesWindowsService, ServicesWindowsService>();
+
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    policy => policy
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+            });
         }
         public static void ConfigureMiddleware(WebApplication app)
         {
@@ -25,6 +35,8 @@ namespace ServerCheckAgent.Configurations
             app.UseAuthorization();
 
             app.MapControllers();
+
+            app.UseCors("AllowAll");
         }
     }
 }
