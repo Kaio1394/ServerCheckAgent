@@ -5,7 +5,7 @@ namespace ServerCheckAgent.Controllers
 {
     [ExcludeFromCodeCoverage]
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ScriptsController : ControllerBase
     {
         private readonly ILogger<ScriptsController> _logger;
