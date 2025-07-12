@@ -15,7 +15,10 @@ namespace ServerCheckAgent.Configurations
 
             builder.Services.AddScoped<IServicesWindowsHelper, ServicesWindowsHelper>();
             builder.Services.AddScoped<IServicesWindowsService, ServicesWindowsService>();
-
+            builder.Services.AddScoped<IEventViewerHelper, EventViewerHelper>();
+            builder.Services.AddScoped<IProccessHelper, ProccessHelper>();
+            builder.Services.AddScoped<IProccessService, ProccessService>();
+            builder.Services.AddScoped<IEventViewService, EventViewService>();
 
             builder.Services.AddCors(options =>
             {

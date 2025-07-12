@@ -9,7 +9,7 @@ namespace ServerCheckAgent.Controllers
 {
     [ExcludeFromCodeCoverage]
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ServicesWindowsController : ControllerBase
     {
         private readonly ILogger<ServicesWindowsController> _logger;
@@ -24,50 +24,80 @@ namespace ServerCheckAgent.Controllers
         [HttpGet("services")]
         public async Task<IActionResult> GetServices()
         {
-            var services = await _servicesWindowsService.GetServices();
-            return Ok(services);
+            try
+            {
+                var services = await _servicesWindowsService.GetServices();
+                return Ok(services);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new Models.Response()
+                {
+                    Message = ex.Message
+                });
+            }
         }
 
         [HttpPost("start")]
         public async Task<IActionResult> StartService([FromQuery] string serviceName)
         {
-            var serviceExist = await _servicesWindowsService.ServiceExist(serviceName);
-            if (!serviceExist)
-                return BadRequest(new Response
-                {
-                    Message = MessagesResponse.ServiceNotFound
-                });
-            var result = await _servicesWindowsService.StartService(serviceName);
-            if(!result)
-                return BadRequest(new
-                {
-                    message = MessagesResponse.ErroStartService
-                });
-            return Ok(new Response
+            try
             {
-                Message = MessagesResponse.StartWithSuccessfull
-            });
+                var serviceExist = await _servicesWindowsService.ServiceExist(serviceName);
+                if (!serviceExist)
+                    return BadRequest(new Response
+                    {
+                        Message = MessagesResponse.ServiceNotFound
+                    });
+                var result = await _servicesWindowsService.StartService(serviceName);
+                if (!result)
+                    return BadRequest(new
+                    {
+                        message = MessagesResponse.ErroStartService
+                    });
+                return Ok(new Response
+                {
+                    Message = MessagesResponse.StartWithSuccessfull
+                });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new Models.Response()
+                {
+                    Message= ex.Message
+                });
+            }
         }
 
         [HttpPost("stop")]
         public async Task<IActionResult> StopService([FromQuery] string serviceName)
         {
-            var serviceExist = await _servicesWindowsService.ServiceExist(serviceName);
-            if (!serviceExist)
-                return BadRequest(new Response
-                {
-                    Message = MessagesResponse.ServiceNotFound
-                });
-            var result = await _servicesWindowsService.StopService(serviceName);
-            if (!result)
-                return BadRequest(new Response
-                {
-                    Message = MessagesResponse.ErroStopService
-                });
-            return Ok(new Response
+            try
             {
-                Message = MessagesResponse.StoppedWithSuccessfull
-            });
+                var serviceExist = await _servicesWindowsService.ServiceExist(serviceName);
+                if (!serviceExist)
+                    return BadRequest(new Response
+                    {
+                        Message = MessagesResponse.ServiceNotFound
+                    });
+                var result = await _servicesWindowsService.StopService(serviceName);
+                if (!result)
+                    return BadRequest(new Response
+                    {
+                        Message = MessagesResponse.ErroStopService
+                    });
+                return Ok(new Response
+                {
+                    Message = MessagesResponse.StoppedWithSuccessfull
+                });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new Models.Response()
+                {
+                    Message = ex.Message
+                });
+            }
         }
     }
 }
