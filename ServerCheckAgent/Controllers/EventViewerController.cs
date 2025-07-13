@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ServerCheckAgent.Helper.Interfaces;
+using ServerCheckAgent.Models.Response;
 using ServerCheckAgent.Services.Interfaces;
 using System.ComponentModel.Design;
 using System.Diagnostics.CodeAnalysis;
@@ -33,7 +34,7 @@ namespace ServerCheckAgent.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new Models.Response()
+                return BadRequest(new ResponseDefault()
                 {
                     Message = ex.Message,
                 });

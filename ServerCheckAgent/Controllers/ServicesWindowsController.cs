@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ServerCheckAgent.Helper.Interfaces;
 using ServerCheckAgent.Models;
+using ServerCheckAgent.Models.Response;
 using ServerCheckAgent.Resources;
 using ServerCheckAgent.Services.Interfaces;
 using System.Diagnostics.CodeAnalysis;
@@ -31,7 +32,7 @@ namespace ServerCheckAgent.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new Models.Response()
+                return BadRequest(new ResponseDefault()
                 {
                     Message = ex.Message
                 });
@@ -45,7 +46,7 @@ namespace ServerCheckAgent.Controllers
             {
                 var serviceExist = await _servicesWindowsService.ServiceExist(serviceName);
                 if (!serviceExist)
-                    return BadRequest(new Response
+                    return BadRequest(new ResponseDefault
                     {
                         Message = MessagesResponse.ServiceNotFound
                     });
@@ -55,14 +56,14 @@ namespace ServerCheckAgent.Controllers
                     {
                         message = MessagesResponse.ErroStartService
                     });
-                return Ok(new Response
+                return Ok(new ResponseDefault
                 {
                     Message = MessagesResponse.StartWithSuccessfull
                 });
             }
             catch (Exception ex)
             {
-                return BadRequest(new Models.Response()
+                return BadRequest(new ResponseDefault()
                 {
                     Message= ex.Message
                 });
@@ -76,24 +77,24 @@ namespace ServerCheckAgent.Controllers
             {
                 var serviceExist = await _servicesWindowsService.ServiceExist(serviceName);
                 if (!serviceExist)
-                    return BadRequest(new Response
+                    return BadRequest(new ResponseDefault
                     {
                         Message = MessagesResponse.ServiceNotFound
                     });
                 var result = await _servicesWindowsService.StopService(serviceName);
                 if (!result)
-                    return BadRequest(new Response
+                    return BadRequest(new ResponseDefault
                     {
                         Message = MessagesResponse.ErroStopService
                     });
-                return Ok(new Response
+                return Ok(new ResponseDefault
                 {
                     Message = MessagesResponse.StoppedWithSuccessfull
                 });
             }
             catch (Exception ex)
             {
-                return BadRequest(new Models.Response()
+                return BadRequest(new ResponseDefault()
                 {
                     Message = ex.Message
                 });
