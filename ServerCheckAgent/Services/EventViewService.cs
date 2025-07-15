@@ -11,11 +11,11 @@ namespace ServerCheckAgent.Services
         {
             _eventViewerHelper = eventViewerHelper;
         }
-        public Task<IEnumerable<EventView>> GetEventViewList(string logName, string date, string limit)
+        public Task<IEnumerable<EventView>> GetEventViewList(string entryType, string logName, string date, string limit)
         {
             return Task.Run(() =>
             {
-                return _eventViewerHelper.GetEventViewList(logName, date, limit);
+                return _eventViewerHelper.GetEventViewList(entryType, logName, date, limit);
             });
         }
     }
