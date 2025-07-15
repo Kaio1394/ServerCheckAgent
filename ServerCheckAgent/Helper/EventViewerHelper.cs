@@ -2,16 +2,17 @@
 using ServerCheckAgent.Models;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.Eventing.Reader;
 
 namespace ServerCheckAgent.Helper
 {
     [ExcludeFromCodeCoverage]
     public class EventViewerHelper: IEventViewerHelper
     {
-        public IEnumerable<EventView> GetEventViewList(string logName, string date, string limit)
+        public IEnumerable<EventView> GetEventViewList(string entryType, string logName, string date, string limit)
         {
             List<EventView> listEventView = new List<EventView>();
-            EventLog eventLog = new EventLog(logName);
+            EventLog eventLog = new EventLog(entryType);
             int total = eventLog.Entries.Count;
 
             int maxResults = limit == "*" ? int.MaxValue : Convert.ToInt32(limit);
@@ -19,7 +20,7 @@ namespace ServerCheckAgent.Helper
             for (int i = total - 1; i >= 0 && listEventView.Count < maxResults; i--)
             {
                 var entry = eventLog.Entries[i];
-                if (entry.TimeGenerated.ToString("yyyy-MM-dd") == date)
+                if (entry.TimeGenerated.ToString("yyyy-MM-dd") == date && entry.EntryType.ToString() == logName)
                 {
                     listEventView.Add(new EventView
                     {
@@ -30,6 +31,8 @@ namespace ServerCheckAgent.Helper
                     });
                 }
             }
+     
+
             return listEventView;
         }
     }

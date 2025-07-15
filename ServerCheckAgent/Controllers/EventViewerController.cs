@@ -4,6 +4,7 @@ using ServerCheckAgent.Models.Response;
 using ServerCheckAgent.Services.Interfaces;
 using System.ComponentModel.Design;
 using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.Eventing.Reader;
 
 namespace ServerCheckAgent.Controllers
 {
@@ -23,13 +24,15 @@ namespace ServerCheckAgent.Controllers
 
         [HttpGet("list")]
         public async Task<IActionResult> GetListEventView(
+            [FromQuery] string entryType,
             [FromQuery] string logName, 
             [FromQuery] string date, 
             [FromQuery] string limit)
         {
             try
             {
-                var listEventView = await _eventViewService.GetEventViewList(logName, date, limit);
+                var listEventView = await _eventViewService.GetEventViewList(entryType, logName, date, limit);
+
                 return Ok(listEventView);
             }
             catch (Exception ex)
