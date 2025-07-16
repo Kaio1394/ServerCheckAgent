@@ -106,3 +106,6 @@ C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\P
 C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\Python\PythonEmbedded\_uuid.pyd
 C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\Python\PythonEmbedded\_wmi.pyd
 C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\Python\PythonEmbedded\_zoneinfo.pyd
+C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\System.Management.dll
+C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Management.dll

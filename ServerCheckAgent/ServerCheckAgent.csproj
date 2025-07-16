@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Management" Version="9.0.7" />
     <PackageReference Include="System.ServiceProcess.ServiceController" Version="9.0.6" />
   </ItemGroup>
 
