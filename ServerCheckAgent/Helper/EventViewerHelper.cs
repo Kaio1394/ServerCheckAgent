@@ -20,7 +20,11 @@ namespace ServerCheckAgent.Helper
             for (int i = total - 1; i >= 0 && listEventView.Count < maxResults; i--)
             {
                 var entry = eventLog.Entries[i];
-                if (entry.TimeGenerated.ToString("yyyy-MM-dd") == date && entry.EntryType.ToString() == logName)
+
+                bool typeLogOk = logName == "*" || entry.EntryType.ToString().Equals(logName, StringComparison.OrdinalIgnoreCase);
+                bool dataOk = entry.TimeGenerated.ToString("yyyy-MM-dd") == date;
+
+                if (dataOk && typeLogOk)
                 {
                     listEventView.Add(new EventView
                     {
@@ -31,8 +35,6 @@ namespace ServerCheckAgent.Helper
                     });
                 }
             }
-     
-
             return listEventView;
         }
     }

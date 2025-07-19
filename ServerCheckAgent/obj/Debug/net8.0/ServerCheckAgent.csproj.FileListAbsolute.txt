@@ -109,3 +109,8 @@ C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\P
 C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\System.Management.dll
 C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Management.dll
+C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\Hardware.Info.dll
+C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kaios\source\repos\ServerCheckAgent\ServerCheckAgent\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
