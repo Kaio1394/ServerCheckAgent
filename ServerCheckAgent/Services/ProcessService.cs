@@ -6,17 +6,17 @@ namespace ServerCheckAgent.Services
 {
     public class ProcessService : IProcessService
     {
-        private readonly IProcessHelper _ProcessHelpere; 
+        private readonly IProcessHelper _ProcessHelper; 
         public ProcessService(IProcessHelper ProcessHelpere)
         {
-            _ProcessHelpere = ProcessHelpere;
+            _ProcessHelper = ProcessHelpere;
         }
 
         public Task<IEnumerable<Process>> GetListProcess()
         {
             return Task.Run(() =>
             {
-                var listProcess = _ProcessHelpere.GetListProcess();
+                var listProcess = _ProcessHelper.GetListProcess();
                 return listProcess;
             });
         }
@@ -25,7 +25,7 @@ namespace ServerCheckAgent.Services
         {
             return Task.Run(() =>
             {
-                return _ProcessHelpere.GetProcessByPid(pid);
+                return _ProcessHelper.GetProcessByPid(pid);
             });
         }
 
@@ -33,7 +33,7 @@ namespace ServerCheckAgent.Services
         {
             return Task.Run(() =>
             {
-                return _ProcessHelpere.KillProcessByPid(pid);
+                return _ProcessHelper.KillProcessByPid(pid);
             });
         }
     }

@@ -2,6 +2,7 @@
 using ServerCheckAgent.Helper;
 using ServerCheckAgent.Services.Interfaces;
 using ServerCheckAgent.Services;
+using Hardware.Info;
 
 namespace ServerCheckAgent.Configurations
 {
@@ -21,6 +22,10 @@ namespace ServerCheckAgent.Configurations
             builder.Services.AddScoped<IEventViewService, EventViewService>();
             builder.Services.AddScoped<IScriptsHelper, ScriptsHelper>();
             builder.Services.AddScoped<IScriptsService, ScriptsService>();
+            builder.Services.AddScoped<IHardwareInfoHelper, HardwareInfoHelper>();
+            builder.Services.AddScoped<IReportService, ReportService>();
+            builder.Services.AddScoped<IHardwareInfo, HardwareInfo>();
+
 
             builder.Services.AddCors(options =>
             {

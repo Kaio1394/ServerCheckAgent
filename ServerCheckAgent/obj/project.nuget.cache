@@ -1,18 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "LhS8mFk7pCE=",
+  "dgSpecHash": "Nzix/15qPKY=",
   "success": true,
   "projectFilePath": "C:\\Users\\kaios\\source\\repos\\ServerCheckAgent\\ServerCheckAgent\\ServerCheckAgent.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kaios\\.nuget\\packages\\hardware.info\\101.0.1.1\\hardware.info.101.0.1.1.nupkg.sha512",
     "C:\\Users\\kaios\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\kaios\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\kaios\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kaios\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\kaios\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\kaios\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\kaios\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\kaios\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "C:\\Users\\kaios\\.nuget\\packages\\system.codedom\\9.0.7\\system.codedom.9.0.7.nupkg.sha512",
-    "C:\\Users\\kaios\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.6\\system.diagnostics.eventlog.9.0.6.nupkg.sha512",
+    "C:\\Users\\kaios\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.7\\system.configuration.configurationmanager.9.0.7.nupkg.sha512",
+    "C:\\Users\\kaios\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.7\\system.diagnostics.eventlog.9.0.7.nupkg.sha512",
+    "C:\\Users\\kaios\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.7\\system.diagnostics.performancecounter.9.0.7.nupkg.sha512",
     "C:\\Users\\kaios\\.nuget\\packages\\system.management\\9.0.7\\system.management.9.0.7.nupkg.sha512",
+    "C:\\Users\\kaios\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\kaios\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.7\\system.security.cryptography.protecteddata.9.0.7.nupkg.sha512",
+    "C:\\Users\\kaios\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\kaios\\.nuget\\packages\\system.serviceprocess.servicecontroller\\9.0.6\\system.serviceprocess.servicecontroller.9.0.6.nupkg.sha512"
   ],
   "logs": []
