@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServerCheckAgent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1c1a07d931c0b645c85f1935e3278056fc589d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29e738a62c5bba32c31a4b2bd95ee588a86c90f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServerCheckAgent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServerCheckAgent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
