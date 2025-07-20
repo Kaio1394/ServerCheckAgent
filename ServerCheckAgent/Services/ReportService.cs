@@ -27,7 +27,7 @@ namespace ServerCheckAgent.Services
                 var cpuInfo = _hardwareInfo.GetInfoCpu();
                 var memoryInfo = _hardwareInfo?.GetInfoMemory();
                 var diskInfo = _hardwareInfo?.GetInfoDisk();
-                var listEventViewer = _eventViewerHelper.GetEventViewList("Application", "Information", DateTime.Now.ToString("yyyy-MM-dd"), "*");
+                //var listEventViewer = _eventViewerHelper.GetEventViewList("Application", "Information", DateTime.Now.ToString("yyyy-MM-dd"), "*");
                 var listServices = _servicesWindowsHelper.GetServices();
                 var listProcess = _processHelper.GetListProcess();
 
@@ -35,7 +35,6 @@ namespace ServerCheckAgent.Services
                 {
                     Cpu = cpuInfo,
                     Memory = memoryInfo,
-                    EventViewer = listEventViewer,
                     ListDisk = diskInfo,
                     Process = listProcess,
                     Services = listServices
